@@ -12,25 +12,33 @@
          
         <div>
         <label>Enter first name</label>
-        <input type ="text" name = "firstname" placeholder="Enter first name">
+        <input type ="text" name = "firstname" placeholder="Enter first name" required minlength ="2" maxlength="12" autocomplete="off" value = "suma">
         </div>
+         <br>
+
+         <div>
+            <label>Enter Age</label>
+            <input type="number" name="number" min="0" max="100">
+         </div>
          <br>
         
         <div>                                  <!--<br> brake lines in lines-->
         <label>Enter last name</label>
-        <input type ="text" name = "lastname" placeholder="Enter lastName" > 
+        <input type ="text" name = "lastname" placeholder="Enter lastName" required autocomplete = "off" readonly > 
         </div>
          <br>
         
         <div>
         <label>Enter Email Id</label>
-        <input type="email" name = "emailId"  placeholder="Enter email">                <!--ctrl space to select type-->
+        <input type="email" name = "emailId"  placeholder="Enter email" autocomplete="off" autofocus>                <!--ctrl space to select type-->
         </div>
-        <br>
+        <br>                                                 <!--for email and password we use javascript to do validation-->
 
         <div>
         <label>Enter password</label>
-        <input type="password" name = "password">
+        <input type="password" name = "password" minlength="2" maxlength="8">     
+        
+      
         </div>
         <br>
 
@@ -39,7 +47,16 @@
             <label>Select Gender</label>
             <input type ="radio" name = "gender">Male
             <input type ="radio" name = "gender">Female       <!--to select either one of these we use name as gender-->
-            <input type ="radio" name = "gender">others
+            <input type ="radio" name = "gender" checked>others <!--to select one-->
+          </div>
+          <br>
+
+          <div>
+               <label>Select Course</label>
+               <input type = "checkbox" disabled>java
+               <input type="checkbox">Python
+               <input type ="checkbox">Dotnet
+
           </div>
           <br>
 
@@ -60,7 +77,7 @@
 
                   <div>
                        <label>Enter mobile number</label>
-                       <input type="number" name = number placeholder="enter your no">
+                       <input type="tel" name ="mobilenumber" placeholder="+91 2353533365s" minlength="1" maxlength="10" autocomplete="off">
                   </div>       
                     <br>
 
@@ -73,10 +90,36 @@
                     <br>
 
                     <div>
-                          <label>Address</label>
-                          <input type="text" name = "address">
-                    </div>
+                          <label>select Date</label>
+                          <input type="date" name="dateOfBirth">
+                   </div>
+                   <br>
+
+                   
+                         <div>
+                          <label>Address</label>         //Address
+                          <textarea rows="10" cols="10"></textarea>
+                         </div>
                       <br>
+                       
+                      <!--naukri website-->
+                       <diV>
+                       <label>Select File/Resume</label>
+                       <input type = "file" name = "uploadFile">
+                       </diV>
+
+                       <div>
+
+                       <!--input type = "submit" name = "submit"-->
+
+                       <button type = "submit">Submit</button>
+                       <button type = "reset">Reset</reset>
+                       </div>
+
+
+
+
+
 
 
 
@@ -85,6 +128,23 @@
 
           
            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
