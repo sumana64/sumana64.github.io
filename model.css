@@ -1,0 +1,68 @@
+.box {
+
+     /*padding-bottom: 30px;
+       padding-top: 30px;
+       padding-right: 30px;
+       padding-left: 30px       padding: 30px*/
+       padding: 10px 20px 30px 40px;
+       border:2px solid red;    
+       margin:20px;
+       background-color:aqua;
+}
+.rect {
+
+       border:2px solid green;
+       height:50px;
+       width: 100px;
+
+}
+/* rectangle inside other rectangle*/
+.rect1 {
+
+       border: 2px solid crimson;
+       width: 400px;
+       height: 200px;                  
+}
+
+.rect2 {
+       
+        border: 2px solid black;
+        width: 200px;
+        height :100px;
+        margin :60px;
+}
+/* side by side */
+
+.rect3 {
+       
+       border: 2px solid indigo;
+       width: 200px;
+       height:100px;
+       display: inline-block;
+}
+
+.rect4 {
+
+        border: 2px solid orangered;
+        width: 200px;
+        height:100px;
+        display: inline-block;
+
+
+}
+
+body {
+
+       background-image: url('image.jpg');
+       height: 500px ;
+       width: 100%;
+       background-repeat: no-repeat;
+       background-color: cover ;
+
+
+}
+
+      
+
+
+
