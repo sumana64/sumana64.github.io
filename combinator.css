@@ -1,0 +1,105 @@
+div p {               /*descendent selector*/
+
+      color:darkorange;   /* whatever the the paragraph inside the div tag it is going to apply*/
+
+}
+ /* child selector*/
+div > p {
+                         /* it is applied to the direct children other childs descendent is applied*/
+    color:aqua;
+}
+
+/*adjacent */
+
+div + p {
+   
+      color:blueviolet;  /*it is applied to the tag next to the div*/
+
+
+}
+
+/*general sibling selectors*/
+
+div ~ p {
+
+    /*color:darkred; wherever we find the paragraph tag outside the div tag*/ 
+    /* color properties */
+      color: #2fa;
+}
+/* Position */
+
+.static{
+
+        position:static;
+        left: 100px;
+
+}
+
+.relative {
+
+          background-color:aqua;
+          top:100px;
+          right:0;
+          position: relative;
+
+}
+
+.absolute {
+        
+         background-color: red;
+         top:100px;
+         right:0;
+         position : absolute; /* it try to find parent if not it display at the top*/
+
+
+}
+
+.topleft {
+
+      position: absolute;
+      top: 0;
+      left: -1px;
+      color:blue;
+      font-size: large;
+
+}
+
+.imageparent {
+
+             position:relative;
+}
+
+/* to make image as circle*/
+
+img {
+
+     border-radius: 10%;
+
+}
+body{
+
+    margin:0;
+}
+
+.fixed {
+        
+        position : fixed;
+        background-color: chartreuse;
+        top:0;
+        left:0;
+
+
+}
+
+.sticky {
+
+      position: sticky;
+      top:0;
+      background-color: red;
+}
+
+
+
+
+
+
