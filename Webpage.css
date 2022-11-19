@@ -1,0 +1,73 @@
+ul{
+
+      list-style-type: none;
+      color:grey;
+      margin-left: 500px;
+      margin-top: -1.6%;
+}
+li{
+
+      margin-left:10px;
+      display: inline-block;
+      font-style: 30;
+
+}
+.imageparent{
+
+      position: absolute;
+      border-left-width: 1000px;
+
+
+}
+img{
+
+      margin-left: 250px;
+}
+h1{
+
+      position: relative;
+      color: white;
+      margin-top: -600px;
+      margin-left: 50%;
+
+
+}
+p{
+
+      color: white;
+      font:40px;
+      position: relative;
+      margin-top: -150px;
+      margin-left: 450px;
+      
+}
+
+
+
+
+
+
+.absolute{
+
+        position:absolute;
+        top:250px;
+        left:100px;
+        margin-left:300px;
+
+}
+
+h1{
+      margin-left:350px;
+      padding: 150px;
+      
+}
+
+
+.relative{
+
+           position:relative;
+           border: solid black;
+           top:-100px;
+           left:600px
+           
+}
