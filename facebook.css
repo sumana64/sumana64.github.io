@@ -3,14 +3,14 @@ body{
      background-color:white;
 
 }
-p{
+/* p{
 
     margin-left:10%;
     font-size:20px;
     margin-top: 0;
-}
+} */
 
-form{
+/* form{
 
      background-color: white;
      position: absolute;
@@ -24,7 +24,7 @@ form{
      margin-top:-200px;
      box-shadow: 4px 4px 5px 4px rgba(0, 0, 0, 0.2);
 
-}
+} */
 input{
        
      padding:3px;
